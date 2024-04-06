@@ -21,10 +21,7 @@ function shortMaker(number){
     }
     
     let newNumber=[max,min];
-    return newNumber;
-
-
-    
+    return newNumber;  
 
 }
 
