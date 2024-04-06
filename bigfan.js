@@ -12,11 +12,14 @@ function shortMaker(number){
             max=number[i];
         }
 
+        if(max===min){
+            return "Equal";
+        }
+
         if(number[i]<0){
             return "Invalid Input";
         }
         
-
 
     }
     
@@ -25,6 +28,6 @@ function shortMaker(number){
 
 }
 
-let number=[2,3];
+let number=[5,3];
 let result=shortMaker(number);
 console.log(result);
